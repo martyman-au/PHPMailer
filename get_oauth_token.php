@@ -45,7 +45,7 @@ use Hayageek\OAuth2\Client\Provider\Yahoo;
 //@see https://github.com/stevenmaguire/oauth2-microsoft
 use Stevenmaguire\OAuth2\Client\Provider\Microsoft;
 //@see https://github.com/greew/oauth2-azure-provider
-use Greew\OAuth2\Client\Provider\Azure;
+use TheNetworg\OAuth2\Client\Provider\Azure; // Switch to a maintained Oauth2 Azure Provider
 
 if (!isset($_GET['code']) && !isset($_POST['provider'])) {
     ?>
